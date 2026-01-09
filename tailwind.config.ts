@@ -20,6 +20,13 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
+        // Custom tech blue/violet primary
+        tech: {
+          blue: 'hsl(217, 91%, 60%)',
+          violet: 'hsl(262, 83%, 58%)',
+        },
+      },
+      colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
@@ -59,11 +66,6 @@ const config: Config = {
           '3': 'hsl(var(--chart-3))',
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
-        },
-        // Custom tech blue/violet primary
-        tech: {
-          blue: 'hsl(217, 91%, 60%)',
-          violet: 'hsl(262, 83%, 58%)',
         },
       },
       keyframes: {

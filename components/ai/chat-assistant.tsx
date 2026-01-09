@@ -39,7 +39,6 @@ const modes = [
 ];
 
 type SpeechRecognitionType = any;
-type SpeechRecognitionEvent = any;
 
 export function ChatAssistant() {
   const [isOpen, setIsOpen] = React.useState(false);

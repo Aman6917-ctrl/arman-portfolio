@@ -25,8 +25,6 @@ const config: Config = {
           blue: 'hsl(217, 91%, 60%)',
           violet: 'hsl(262, 83%, 58%)',
         },
-      },
-      colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
